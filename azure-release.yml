@@ -14,12 +14,12 @@ jobs:
           REPO_NAME: sample
           PKG_REPOTYPE: community
           GITHUB_TOKEN: 5a954e99acfe52fc8221ebe82d15bd12fcf158b0
-        el7:
-          TARGET_PLATFORM: el/7
-          PACKAGECLOUD_API_TOKEN: cf058e6c1453b02742cae518499e80dd13a3e9a0893509fd
-          REPO_NAME: sample
-          PKG_REPOTYPE: community
-          GITHUB_TOKEN: 5a954e99acfe52fc8221ebe82d15bd12fcf158b0
+#        el7:
+#          TARGET_PLATFORM: el/7
+#          PACKAGECLOUD_API_TOKEN: cf058e6c1453b02742cae518499e80dd13a3e9a0893509fd
+#          REPO_NAME: sample
+#          PKG_REPOTYPE: community
+#          GITHUB_TOKEN: 5a954e99acfe52fc8221ebe82d15bd12fcf158b0
     pool:
       vmImage: 'ubuntu-latest'
     steps:
